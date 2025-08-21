@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/eswar-20/fullstack120.git', branch: 'master'
+                git url: 'https://github.com/eswar-20/fullstack120.git', branch: 'main'
             }
         }
 
